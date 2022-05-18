@@ -10,3 +10,4 @@ features:
 siblings:
   - gameroypad_left
   - gameroypad_right
+  - gameroypad_dongle
