@@ -8,6 +8,6 @@ features:
   - keys
   - encoder
 siblings:
-  - gameroypad_left
-  - gameroypad_right
-  - gameroypad_dongle
+  - gameroy_advanced_left
+  - gameroy_advanced_right
+  - gameroy_advanced_dongle
