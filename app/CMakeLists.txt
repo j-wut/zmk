@@ -104,6 +104,7 @@ target_sources_ifdef(CONFIG_ZMK_RGB_UNDERGLOW app PRIVATE src/rgb_underglow.c)
 target_sources_ifdef(CONFIG_ZMK_BACKLIGHT app PRIVATE src/backlight.c)
 target_sources_ifdef(CONFIG_ZMK_BATTERY_INDICATOR app PRIVATE src/battery_indicator.c)
 target_sources(app PRIVATE src/workqueue.c)
+target_sources_ifdef(CONFIG_ZMK_BOOT_MAGIC_KEY app PRIVATE src/boot_magic_key.c)
 target_sources(app PRIVATE src/main.c)
 
 add_subdirectory(src/display/)

@@ -33,6 +33,7 @@ module.exports = {
     {
       Features: [
         "features/bluetooth",
+        "features/boot-magic-key",
         "features/modules",
         "features/split-keyboards",
         "features/debouncing",
